@@ -1,0 +1,5 @@
+#sample POST to create a user
+curl -H "Content-Type: application/json" -X POST http://localhost:3000/users -d '{"userId": "alexdebrie1", "name": "Alex DeBrie"i}'
+
+#get the User we just created
+GET http://localhost:3000/users/alexdebrie1
