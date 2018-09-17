@@ -2,6 +2,7 @@ service: my-express-application
 plugins:
   - serverless-dynamodb-local
   - serverless-offline
+  - serverless-plugin-include-dependencies
 
 provider:
   name: aws
